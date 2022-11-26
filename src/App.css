@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  text-align: center; 
+}
+
+.App a{
+  position: relative;
+  top: -80px;
 }
 
 .App-logo {
@@ -10,6 +15,9 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    width: 200px;
+    position: relative;
+    top: -40px;
   }
 }
 
@@ -26,7 +34,21 @@
 
 .App-link {
   color: #61dafb;
+  text-decoration: none;
+  position: relative;
+  top: -100px;
 }
+
+.link-routes:hover{
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 5px #61dafb;
+}
+
+.text-erro{
+  position: relative;
+  top: -80px;
+}
+
 
 @keyframes App-logo-spin {
   from {
